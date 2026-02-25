@@ -17,13 +17,6 @@ lishes a reproducible framework for benchmarking streaming
 ASR and end-to-end duplex agents in healthcare deployment.
 The dataset and related resources are publicly available at Github and Huggingface
 
-
-
-## Overview of Benchmark Data Construction
-![image](https://github.com/Kinetics-JOJO/MMedFD/blob/main/Image/Data_con_new.png)
-## Overview of Our Benchmark-Compare with Existing Bench
-![image](https://github.com/Kinetics-JOJO/MMedFD/blob/main/Image/Compare.png)
-
 ## Whisper ASR Fine-tuning and Inference
 
 This repository provides a streamlined workflow to fine-tune OpenAI Whisper models on your data, run inference on a dataset, and evaluate results with CER/WER. The codebase is written in English and exposes consistent CLI options. Whisper model size is configurable.
