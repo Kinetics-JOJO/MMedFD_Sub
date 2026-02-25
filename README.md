@@ -1,28 +1,11 @@
 ## MMedFD: A Real-world Healthcare Benchmark for Multi-turn Full-Duplex Automatic Speech Recognition
 
-<p align="center">
-<a href="https://arxiv.org/abs/2509.19817" alt="arXiv">
-    <img src="https://img.shields.io/badge/arXiv-2405.07992-b31b1b.svg?style=flat" /></a>
 <a href="https://huggingface.co/datasets/HanselZz/MMedFD" alt="Hugging Face Spaces">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" /></a>
 
-
 ### Data Availability
-The dataset used in this project is proprietary currently and is not publicly available in this page. Dataset is now open in the 🤗 <a href="https://huggingface.co/datasets/HanselZz/MMedFD" target="_blank">HuggingFace</a>. Full access requires internal approval and a research-only data use agreement. Researchers who wish to request access may contact yangxiao.wxy@antgroup.com with a brief description of their affiliation, project goals, intended use, and data protection plan. Only de-identified data may be shared, and redistribution is prohibited.
+The dataset used in this project is proprietary currently and is not publicly available in this page. Dataset is now open in the 🤗 <a href="https://huggingface.co/datasets/HanselZz/MMedFD" target="_blank">HuggingFace</a>. Full access requires internal approval and a research-only data use agreement. Researchers who wish to request access may contact us with a brief description of their affiliation, project goals, intended use, and data protection plan. Only de-identified data may be shared, and redistribution is prohibited.
 
-## Citation
-If this code or our benchmark is useful for your research, please consider citing our paper:
-```bibtex
-@misc{chen2025mmedfdrealworldhealthcarebenchmark,
-      title={MMedFD: A Real-world Healthcare Benchmark for Multi-turn Full-Duplex Automatic Speech Recognition}, 
-      author={Hongzhao Chen and XiaoYang Wang and Jing Lan and Hexiao Ding and Yufeng Jiang and MingHui Yang and DanHui Xu and Jun Luo and Nga-Chun Ng and Gerald W. Y. Cheng and Yunlin Mao and Jung Sun Yoo},
-      year={2025},
-      eprint={2509.19817},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS},
-      url={https://arxiv.org/abs/2509.19817}, 
-}
-```
 ## Abstract
 Automatic speech recognition (ASR) in clinical dialogue demands robustness to full-duplex interaction, speaker overlap,and low-latency constraints, yet open benchmarks remain scarce. We present MMedFD, the first real-world Chinese healthcare ASR corpus designed for multi-turn, full-duplex settings. Captured from a deployed AI assistant, the dataset comprises 5,805 annotated sessions with synchronized user and mixed-channel views, RTTM/CTM timing, and role la-
 bels. We introduce a model-agnostic pipeline for streaming segmentation, speaker attribution, and dialogue memory, and
@@ -32,7 +15,7 @@ healthcare settings. LLM-generated responses are assessed
 using rubric-based and pairwise protocols. MMedFD estab-
 lishes a reproducible framework for benchmarking streaming
 ASR and end-to-end duplex agents in healthcare deployment.
-The dataset and related resources are publicly available at https://github.com/Kinetics-JOJO/MMedFD
+The dataset and related resources are publicly available at Github and Huggingface
 
 
 
